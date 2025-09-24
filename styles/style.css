@@ -1,0 +1,84 @@
+body {
+  font-family: "Mozilla Headline", sans-serif;
+  font-optical-sizing: auto;
+  line-height: 1.6;
+  color: #333;
+}
+
+h1,
+h3 {
+  font-weight: bold;
+}
+
+footer {
+  margin-top: 50px;
+}
+
+.bg-hero {
+  background: linear-gradient(0deg, rgba(255, 255, 255, 1) 0%, rgba(21, 0, 107, 1) 70%);
+}
+
+.custom-bg {
+  background-color: #15006B;
+}
+
+.bg-footer {
+  background: linear-gradient(0deg, rgba(21, 0, 107, 1) 0%, rgba(255, 255, 255, 1) 70%);
+}
+
+.bg-product {
+  background: #fff7f0;
+}
+
+.testimonial p {
+  font-style: italic;
+  margin-bottom: 0.5rem;
+}
+
+.testimonial h6 {
+  color: #444;
+}
+
+iframe {
+  border: 0;
+}
+
+@media (max-width: 768px) {
+  .bg-hero {
+    padding: 2rem 1rem;
+  }
+}
+
+.mensagem{
+  background-color: rgb(199, 255, 116);
+  border-color: green;
+  border-width: 2px;
+  border-style: solid;
+  border-radius: 8px;
+  padding: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  opacity: 1;
+  transition: opacity 1s;
+}
+
+.mensagem-erro{
+  background-color: rgb(253, 139, 139);
+  border-color: red;
+  border-width: 2px;
+  border-style: solid;
+  border-radius: 8px;
+  padding: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  opacity: 1;
+  transition: opacity 1s;
+}
+
+.fade-out {
+  opacity: 0;
+}
+
+.mensagem-escondida{
+  display: none;
+}

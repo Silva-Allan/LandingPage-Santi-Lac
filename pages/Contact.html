@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SantiLac - Contato</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&family=Mozilla+Headline:wght@200..700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="../styles/style.css">
+</head>
+
+<body>
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark custom-bg">
+    <div class="container">
+      <img style="width: 130px; height: auto;" src="../img/LogoSantilac2.png" alt="Logo">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="../index.html">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="Sobre.html">Sobre Nós</a></li>
+          <li class="nav-item"><a class="nav-link" href="Galeria.html">Queijos</a></li>
+          <li class="nav-item">
+            <a href="Contact.html" class="btn btn-outline-light">Contate-nos</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero -->
+  <section class="bg-hero text-white text-center p-5">
+    <div class="container">
+      <h1 class="fw-bold">Fale Conosco</h1>
+      <p>Na loja ou no WhatsApp</p>
+    </div>
+  </section>
+
+  <!-- Informações de contato + formulário -->
+  <section class="container my-5">
+    <div class="row g-4 align-items-stretch">
+      <!-- Formulário -->
+      <div class="col-lg-6 d-flex">
+        <div class="p-4 rounded shadow-sm bg-product flex-fill">
+          <h2 class="fw-bold mb-4">Envie uma mensagem</h2>
+          <form id="contact-form">
+            <div class="mb-3">
+              <label for="nome" class="form-label">Nome</label>
+              <input type="text" class="form-control" id="nome" placeholder="Seu nome completo" required>
+            </div>
+            <div class="mb-3">
+              <label for="email" class="form-label">E-mail</label>
+              <input type="email" class="form-control" id="email" placeholder="seu@exemplo.com" required>
+            </div>
+            <div class="mb-3">
+              <label for="mensagem" class="form-label">Mensagem</label>
+              <textarea class="form-control" id="mensagem" rows="6" placeholder="Escreva sua mensagem"
+                required></textarea>
+            </div>
+            <div id="mensagem-sucesso" class="mensagem-escondida"></div>
+            <button type="button" id="botaoEnv" class="btn btn-outline-dark">Enviar</button>
+          </form>
+        </div>
+      </div>
+
+      <!-- Informações -->
+      <div class="col-lg-6 d-flex text-center">
+        <div class="p-4 rounded shadow-sm bg-product flex-fill">
+          <h2 class="fw-bold mb-3 ">Entre em Contato</h2>
+          <h4 class="mb-3">Quilombo - SC</h4>
+          <p class="mb-2"><i class="bi bi-geo-alt-fill me-2"></i><strong>Endereço:</strong> Av. Cel. Ernesto Bertaso,
+            346 - sala 02, 89850-000</p>
+          <p class="mb-2"><i class="bi bi-telephone-fill me-2"></i><strong>Telefone:</strong> (49) 99999-9999</p>
+          <p class="mb-4"><i class="bi bi-envelope-fill me-2"></i><strong>E-mail:</strong> contatoSantilac@gmail.com</p>
+
+          <h2 class="fw-bold mb-3">Trabalhe Conosco</h2>
+          <p><i class="bi bi-envelope-fill me-2"></i><strong>E-mail:</strong> rhSantilac@gmail.com</p>
+          <h2>Redes</h2>
+          <p class="mb-2"><i class="bi bi-facebook"></i> Santi'lac Laticínios</p>
+          <p class="mb-2"><i class="bi bi-instagram"></i> @santilac_laticinios</p>
+        </div>
+      </div>
+
+  </section>
+
+  <!-- Mapa full-width -->
+  <section class="w-100">
+    <div class="rounded shadow-sm overflow-hidden w-100" style="height: 400px;">
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!3m2!1spt-BR!2sbr!4v1758657750291!5m2!1spt-BR!2sbr!6m8!1m7!1spesdbRKH9yRktcZ79GTnrQ!2m2!1d-26.73235602300262!2d-52.71803205878751!3f49.01840728328329!4f-3.7215124674060007!5f0.6200626244816128"
+        width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+  </section>
+
+  <!-- Valores pequenos ou chamada final -->
+  <section class="container my-5 text-center">
+    <h2 class="fw-bold">Estamos Aqui Para Ajudar</h2>
+    <p>Se quiser saber mais sobre nossos produtos, solicitar orçamento ou receber notícias, basta nos chamar. Sua voz é
+      muito importante para nós!</p>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-dark text-white text-center p-3 ">
+    <p>&copy; 2025 Santi' Lac. Todos os direitos reservados.</p>
+    <p>contatoSantilac@gmail.com</p>
+    <p>(49) 99999-9999</p>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  <script>
+    document.addEventListener('DOMContentLoaded', function () {
+      const botao = document.getElementById('botaoEnv');
+      const form = document.getElementById('contact-form');
+      const mensagemSucesso = document.getElementById('mensagem-sucesso');
+
+      botao.addEventListener('click', function (e) {
+        e.preventDefault();
+
+        const nome = document.getElementById('nome').value.trim();
+        const email = document.getElementById('email').value.trim();
+        const mensagem = document.getElementById('mensagem').value.trim();
+
+        if (!nome || !email || !mensagem) {
+          mensagemSucesso.textContent = '';
+          mensagemSucesso.classList.replace('mensagem-escondida', 'mensagem-erro');
+          mensagemSucesso.textContent = 'Por favor, preencha todos os campos.';
+          form.reset();
+
+          setTimeout(function () {
+          mensagemSucesso.classList.add('fade-out');
+        }, 1000);
+
+        setTimeout(function () {
+          mensagemSucesso.textContent = '';
+          mensagemSucesso.classList.remove('fade-out');
+          mensagemSucesso.classList.replace('mensagem-erro', 'mensagem-escondida');
+        }, 3000);
+          return;
+        }
+
+        mensagemSucesso.classList.replace('mensagem-escondida', 'mensagem');
+        mensagemSucesso.textContent = 'Formulário enviado com sucesso!';
+        form.reset();
+
+        setTimeout(function () {
+          mensagemSucesso.classList.add('fade-out');
+        }, 1000);
+
+        setTimeout(function () {
+          mensagemSucesso.textContent = '';
+          mensagemSucesso.classList.remove('fade-out');
+          mensagemSucesso.classList.replace('mensagem', 'mensagem-escondida');
+        }, 3000);
+      });
+    });
+  </script>
+</body>
+
+</html>

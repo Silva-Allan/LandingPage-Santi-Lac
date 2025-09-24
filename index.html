@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SantiLac - Home</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&family=Mozilla+Headline:wght@200..700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+
+<body>
+    <!-- Navbar Bootstrap -->
+    <nav class="navbar navbar-expand-lg navbar-dark custom-bg">
+        <div class="container">
+            <img style="width: 130px; height: auto;" src="img/LogoSantilac2.png" alt="Logo">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link active" href="index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="pages/Sobre.html">Sobre Nós</a></li>
+                    <li class="nav-item"><a class="nav-link" href="pages/Galeria.html">Queijos</a></li>
+                    <li class="nav-item">
+                        <a type="button" href="pages/Contact.html" class="btn btn-outline-light">Contate-nos</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero -->
+    <section class="bg-hero text-white text-center  p-2">
+        <div class="container">
+            <h1>Santi'Lac Laticínios</h1>
+            <p class="lead">Mais que sabores, experiências.</p>
+        </div>
+    </section>
+
+    <!-- Carrossel Bootstrap -->
+    <section class="container my-5 text-center w-100">
+        <div id="carouselExample" class="carousel slide">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="img/O sabor da/1.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="img/O sabor da/2.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="img/O sabor da/3.jpg" class="d-block w-100" alt="...">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </section>
+
+    <!-- Primeira linha -->
+    <section class="text-center">
+        <h2 class="fw-bold">Produtos</h2>
+        <div class="d-flex justify-content-center flex-wrap gap-4 mt-4 text-center">
+            <div class="bg-product text-dark p-3 rounded shadow-sm w-25">
+                <h3 class="fw-bold">Queijo Mussarela</h3>
+                <img src="img/Products/ProdutoMussarela.png" class="img-fluid my-2" alt="Queijo Mussarela">
+                <p>Maciez irresistível e sabor suave, perfeita para derreter em qualquer receita.</p>
+            </div>
+            <div class="bg-product text-dark p-3 rounded shadow-sm w-25">
+                <h3 class="fw-bold">Queijo Provolone</h3>
+                <img src="img/Products/ProdutoProvolone.png" class="img-fluid my-2" alt="Queijo Provolone">
+                <p>Aroma marcante e sabor levemente defumado que conquista paladares exigentes.</p>
+            </div>
+            <div class="bg-product text-dark p-3 rounded shadow-sm w-25">
+                <h3 class="fw-bold">Queijo Gouda</h3>
+                <img src="img/Products/ProdutoGouda.png" class="img-fluid my-2" alt="Queijo Gouda">
+                <p>Textura cremosa e notas adocicadas que transformam cada fatia em uma experiência única.</p>
+            </div>
+        </div>
+
+
+        <!-- Segunda linha -->
+        <div class="d-flex justify-content-center flex-wrap gap-4 mt-4 text-center">
+            <div class="bg-product text-dark p-3 rounded shadow-sm w-25">
+                <h3 class="fw-bold">Queijo Coalho</h3>
+                <img src="img/Products/ProdutoCoalho.png" class="img-fluid my-2" alt="Queijo Coalho">
+                <p>Ideal para assar e compartilhar, com sabor marcante e textura inconfundível.</p>
+            </div>
+            <div class="bg-product text-dark p-3 rounded shadow-sm w-25">
+                <h3 class="fw-bold">Queijo Gruyere</h3>
+                <img src="img/Products/ProdutoGruyere.png" class="img-fluid my-2" alt="Queijo Fatiado">
+                <p>ofisticação suíça em cada pedaço, perfeito para receitas requintadas e paladares exigentes.</p>
+            </div>
+            <div class="bg-product text-dark p-3 rounded shadow-sm w-25">
+                <h3 class="fw-bold">Queijo Colonial</h3>
+                <img src="img/Products/ProdutoColonial.png" class="img-fluid my-2" alt="Nata">
+                <p>O verdadeiro sabor da tradição do campo, com autenticidade e qualidade artesanal.</p>
+            </div>
+        </div>
+        <a type="button" href="pages/Galeria.html" class="btn btn-outline-dark mt-3">Ver Mais</a>
+    </section>
+
+    <!-- Quem somos e Depoimentos -->
+    <section class="container my-5">
+        <div class="row align-items-stretch g-4">
+            <!-- Quem Somos Aside -->
+            <aside class="col-md-6 d-flex">
+                <div class="p-4 rounded shadow-sm bg-product text-center flex-fill">
+                    <h2 class="mb-4 fw-bold">Quem Somos</h2>
+                    <p class="mb-4">
+                        Na Santi’Lac, cada produto nasce do compromisso com a excelência e do respeito à tradição.
+                        Trabalhamos lado a lado com pequenos produtores da região, garantindo leite fresco, de qualidade
+                        superior e proveniente de rebanhos cuidadosamente selecionados.
+
+                        Nossa missão vai além de produzir queijos e derivados: queremos levar à mesa das famílias o
+                        sabor autêntico da vida no campo, preservando receitas artesanais que atravessam gerações.
+
+                        Acreditamos que o verdadeiro diferencial está no cuidado com cada detalhe — desde a seleção da
+                        matéria-prima, passando pelo processo artesanal, até a entrega final. O resultado é uma linha de
+                        produtos que une sabor, frescor e confiança, conquistando clientes que buscam não apenas
+                        alimentos, mas experiências únicas.
+
+                        Com a Santi’Lac, você tem a certeza de estar saboreando um pedaço da nossa história, feita com
+                        paixão, qualidade e dedicação.
+                    </p>
+                    <a href="pages/Sobre.html" class="btn btn-outline-dark">Saiba Mais</a>
+                </div>
+            </aside>
+
+            <!-- Depoimentos Aside & Accordion -->
+            <aside class="col-md-6 d-flex">
+                <div class="p-4 rounded shadow-sm bg-product flex-fill">
+                    <h2 class="mb-4 fw-bold text-center">O que Nossos Clientes Dizem</h2>
+                    <div class="accordion" id="accordionTestimonials">
+                        <!-- Depoimento 1 -->
+                        <div class="accordion-item mb-3 border-start border-4 border-warning shadow-sm">
+                            <h2 class="accordion-header" id="headingOne">
+                                <button class="accordion-button collapsed bg-white text-dark" type="button"
+                                    data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true"
+                                    aria-controls="collapseOne">
+                                    Maria S.
+                                </button>
+                            </h2>
+                            <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
+                                data-bs-parent="#accordionTestimonials">
+                                <div class="accordion-body bg-white">
+                                    "Os queijos da Santi'Lac são simplesmente incríveis! A qualidade e o sabor são
+                                    incomparáveis. Recomendo a todos!"
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Depoimento 2 -->
+                        <div class="accordion-item mb-3 border-start border-4 border-warning shadow-sm">
+                            <h2 class="accordion-header" id="headingTwo">
+                                <button class="accordion-button collapsed bg-white text-dark" type="button"
+                                    data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false"
+                                    aria-controls="collapseTwo">
+                                    João P.
+                                </button>
+                            </h2>
+                            <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+                                data-bs-parent="#accordionTestimonials">
+                                <div class="accordion-body bg-white">
+                                    "Adoro a variedade de queijos artesanais que a Santi'Lac oferece. Sempre fresquinhos
+                                    e deliciosos!"
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Depoimento 3 -->
+                        <div class="accordion-item border-start border-4 border-warning shadow-sm">
+                            <h2 class="accordion-header" id="headingThree">
+                                <button class="accordion-button collapsed bg-white text-dark" type="button"
+                                    data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false"
+                                    aria-controls="collapseThree">
+                                    Ana L.
+                                </button>
+                            </h2>
+                            <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+                                data-bs-parent="#accordionTestimonials">
+                                <div class="accordion-body bg-white">
+                                    "A nata da Santi'Lac é perfeita para minhas receitas. A textura cremosa faz toda a
+                                    diferença!"
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </aside>
+
+
+            <!-- Footer -->
+            <footer class="bg-dark text-white text-center p-3 ">
+                <p>&copy; 2025 Santi' Lac. Todos os direitos reservados.</p>
+                <p>contatoSantilac@gmail.com</p>
+                <p>(49) 99999-9999</p>
+            </footer>
+
+            <script 
+                src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+                src="script.js"
+            ></script>
+</body>
+
+</html>
