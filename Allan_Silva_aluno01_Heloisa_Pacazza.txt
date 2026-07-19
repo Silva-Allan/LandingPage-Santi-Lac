@@ -1,0 +1,4 @@
+Allan_Silva_aluno01_Heloisa_Pacazza_aluno02
+
+Usamos o VScode para fazer o projeto.
+Link do GitHub: https://github.com/Silva-Allan/LandingPage-Santi-Lac.git

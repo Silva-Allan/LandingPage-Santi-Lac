@@ -3,6 +3,8 @@ body {
   font-optical-sizing: auto;
   line-height: 1.6;
   color: #333;
+  background-color: #5469C7;
+  padding-top: 82px;
 }
 
 h1,
@@ -15,19 +17,20 @@ footer {
 }
 
 .bg-hero {
-  background: linear-gradient(0deg, rgba(255, 255, 255, 1) 0%, rgba(21, 0, 107, 1) 70%);
+  background: linear-gradient(0deg,rgba(84, 105, 199, 1) 0%, rgba(12, 0, 41, 1) 100%);
 }
 
 .custom-bg {
-  background-color: #15006B;
-}
-
-.bg-footer {
-  background: linear-gradient(0deg, rgba(21, 0, 107, 1) 0%, rgba(255, 255, 255, 1) 70%);
+  background-color: #0C0029;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
 }
 
 .bg-product {
-  background: #fff7f0;
+  background: #cae4ff;
 }
 
 .testimonial p {
